@@ -1,0 +1,19 @@
+@import url(var.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.all-content{
+    background: var(--color-primary);
+    min-height: 100vh;
+    min-width: 100vh;
+    padding: 3em;
+}
+
+.header-content{
+    height: 10em;
+    background: #000;
+}
