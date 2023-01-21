@@ -10,7 +10,6 @@
     background: var(--color-primary);
     min-height: 100vh;
     min-width: 100vh;
-    padding: 3em;
 }
 
 .header-content{
