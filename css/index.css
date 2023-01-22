@@ -7,7 +7,7 @@
 }
 
 .all-content{
-    background: var(--color-primary);
+    background: var(--color-withe);
     min-height: 100vh;
     min-width: 100vh;
 }
@@ -18,5 +18,20 @@
     padding: 1em;
 }
 
+.details-header{
+    background:#fff;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
 
+.lang-header, .list-lang{
+    display: flex;
+    flex-direction: row;
+}
 
+.list-lang li{
+    list-style: none;
+    margin: 0 1em 0 0;
+}
