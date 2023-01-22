@@ -13,6 +13,10 @@
 }
 
 .header-content{
-    height: 60px;
-    
+    height: 7em;
+    box-sizing: content-box;
+    padding: 1em;
 }
+
+
+
