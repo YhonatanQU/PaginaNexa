@@ -1,7 +1,19 @@
 :root{
-    --color-primary:#697580;
-    --color-secondary:#ff684e;
+
+    /* start colors */
+    --color-primary:#ff6753;
+    --color-secondary:#ff7c65;
     --color-white:#fff;
-    --color-black:#000;
+    --color-black:#3a3a5e;
+    --color-black-ligth:#eaeaea;
+
+
+
+    /* end colors */
+
+    /* start fonts */
+        --font-family: 'Nunito', sans-serif;
+
+    /* start fonts */
     
 }
