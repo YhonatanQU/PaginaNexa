@@ -1,3 +1,5 @@
+/*START GLOBAL CSS*/
+
 @import url(var.css);
 
 *{
@@ -5,6 +7,22 @@
     padding: 0;
     font-family: var(--font-family);
 }
+
+.color-title-default{
+    color: var(--color-white);
+}
+
+.title-responsive{
+    width: 100%;
+}
+
+.img-responsive{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*END GLOBAL CSS*/
 
 .main-content{
     width: 100%s;
@@ -33,9 +51,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.title{
     color: var(--color-black);
     font-size: 1em;
 }
+
+
 
 .header-nav{
     display: flex;
@@ -212,6 +236,10 @@
         display: flex;
         justify-content: left;
         align-items: left;
+        font-size: .7em;
+    }
+
+    .title{
         font-size: .7em;
     }
 
