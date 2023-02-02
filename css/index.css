@@ -36,11 +36,29 @@
 }
 
 .header-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.burguer-nav{
+    border-left: 1px solid var(--color-black-ligth);    
+    display: none;
+}
+
+.icon-burguer{
+    text-decoration: none;
+    color: var(--color-black);
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25em;
+    font-size: 1em;
 
 }
 
-.navegation{
 
+.navegation{
 }
 
 .list-nav{
@@ -176,4 +194,22 @@
 }
 
 /* end main content */
+
+
+
+@media (max-width:700px){
+    .navegation{
+        display: none;
+    }
+
+    .header-title {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .burguer-nav{ 
+        display: block;
+    }
+}
 
