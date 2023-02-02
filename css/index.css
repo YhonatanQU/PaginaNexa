@@ -204,10 +204,15 @@
         display: none;
     }
 
+    .header-logo{
+        font-size: .7em;
+    }
+
     .header-title {
         display: flex;
         justify-content: left;
         align-items: left;
+        font-size: .7em;
     }
 
     .burguer-nav{ 
