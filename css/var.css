@@ -15,5 +15,9 @@
         --font-family: 'Nunito', sans-serif;
 
     /* start fonts */
+
+    /* start border*/
+        --border-default: 1px solid red;
+    /* end border*/
     
 }

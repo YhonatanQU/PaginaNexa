@@ -21,130 +21,144 @@
     height: 100%;
 }
 
+.content-align-center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
 
 /*END GLOBAL CSS*/
 
 .main-content{
-    width: 100%s;
-    height: 100vh;
+    width: 100%;
 }
 
 /* start header */
 .main-header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     height:3.5em;
-    box-shadow: 1px 5px 20px var(--color-black-ligth);
-}
-
-.header-logo{
-    width: 5em;    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--color-primary);
-    font-size: 1em;
-}
-
-.header-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.title{
-    color: var(--color-black);
-    font-size: 1em;
-}
-
-
-
-.header-nav{
-    display: flex;
-    flex-direction: row;
-}
-
-.burguer-nav{
-    border-left: 1px solid var(--color-black-ligth);    
-    display: none;
-}
-
-.icon-burguer{
-    text-decoration: none;
-    color: var(--color-black);
-    font-weight: 300;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1.25em;
-    font-size: 1em;
-
-}
-
-
-.navegation{
-}
-
-.list-nav{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.list-nav>li>a{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: .6em;
-    width: 5em;
-    color: var(--color-black);
-    text-decoration: none;
-    border-left: 1px solid var(--color-black-ligth);
-    transition: color .5s;
-    position:relative;
-    font-weight: 300;
-}
-
-.list-nav>li>a:hover{
-    color: var(--color-white);
-    background: var(--color-secondary);
-}
-
-.list-nav>li>ul{
-    list-style: none;
-    position: absolute;
-    display: none;
-    background: var(--color-primary);
-    border-radius: 0 0 5px 5px;
-    margin-left: 1px;
-
-}
-
-.list-nav>li:hover > ul{
-    display: block;
-}
-
-.list-nav>li>ul>li>a{
-    text-align: center;
     box-sizing: border-box;
-    width: 99px;
-    text-decoration: none;
-    padding: 5px 6px;
-    display: block;
-    font-weight: 200;
-    color: var(--color-white); 
-    border-top: .5px solid var(--color-secondary);
+    box-shadow: 1px 5px 20px var(--color-black-ligth);
+
 }
 
-.list-nav>li>ul>li>a:hover{
-    font-weight: 300;
-}
+/* logo */
+    .header-logo{
+        color: var(--color-primary);
+        
+    }
 
+    .header-logo>span{
+        box-sizing: border-box;
+        font-size: 2em;
+        padding: 0 .5em;
+    }
+/* logo */
+
+/* titulo cabecera */
+    .header-title{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+    }
+
+    .title{
+        box-sizing: border-box;
+        padding: 1.8em 1em;
+        font-size: .8em;
+        color: var(--color-black);
+        font-weight: 400;
+    }
+/* titulo cabecera */
+
+/* navegacion cabecera */
+    .header-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content:end;
+        align-items: end;
+    }
+
+    .burguer-nav{
+        border-left: 1px solid var(--color-black-ligth);    
+        display: none;
+    }
+
+    .icon-burguer{
+        text-decoration: none;
+        color: var(--color-black);
+        font-weight: 300;
+        padding: 1.25em;
+        font-size: 1em;
+
+    }
+
+
+    .navegation{
+        display: nones;
+    }
+
+    .list-nav{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-nav>li>a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: .6em;
+        width: 5em;
+        color: var(--color-black);
+        text-decoration: none;
+        border-left: 1px solid var(--color-black-ligth);
+        transition: color .5s;
+        position:relative;
+        font-weight: 300;
+    }
+
+    .list-nav>li>a:hover{
+        color: var(--color-white);
+        background: var(--color-secondary);
+    }
+
+    .list-nav>li>ul{
+        list-style: none;
+        position: absolute;
+        display: none;
+        background: var(--color-primary);
+        border-radius: 0 0 5px 5px;
+        margin-left: 1px;
+
+    }
+
+    .list-nav>li:hover > ul{
+        display: block;
+    }
+
+    .list-nav>li>ul>li>a{
+        text-align: center;
+        box-sizing: border-box;
+        width: 99px;
+        text-decoration: none;
+        padding: 5px 6px;
+        display: block;
+        font-weight: 200;
+        color: var(--color-white); 
+        border-top: .5px solid var(--color-secondary);
+    }
+
+    .list-nav>li>ul>li>a:hover{
+        font-weight: 300;
+    }
+/* navegacion cabecera */
 /* end header */
 
 /* start main content */
@@ -178,8 +192,8 @@
 }
 
 .content-card{
-    width: 30%;
-    height: 300px;
+    width: 45%;
+    height: 430px;
     text-align: center;
     margin: 20px;
 
@@ -223,42 +237,15 @@
 
 
 
-@media (max-width:700px){
-    .navegation{
+@media (min-width:500px){
+
+    .list-nav{
         display: none;
     }
+   .burguer-nav{
+    display: block;
+   }
 
-    .header-logo{
-        font-size: .7em;
-    }
 
-    .header-title {
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        font-size: .7em;
-    }
-
-    .title{
-        font-size: .7em;
-    }
-
-    .burguer-nav{ 
-        display: block;
-    }
-
-    .content-card-bi{
-        display: block;
-    }
-
-    .content-card{
-        width: 100%;
-        margin: 0;
-        margin-top: 20px;
-    }
-
-    .content-card-bi:first-child{
-        margin-top: 0;
-    }
 }
 
