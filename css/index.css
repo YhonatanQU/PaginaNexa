@@ -237,7 +237,7 @@
 
 
 
-@media (man-width:500px){
+@media (min-width:300px){
 
     .list-nav{
         display: none;
