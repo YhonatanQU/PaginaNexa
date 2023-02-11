@@ -47,7 +47,6 @@
 /* logo */
     .header-logo{
         color: var(--color-primary);
-        
     }
 
     .header-logo>span{
@@ -59,16 +58,13 @@
 
 /* titulo cabecera */
     .header-title{
-        display: flex;
-        justify-content: start;
-        align-items: center;
         width: 100%;
     }
 
     .title{
         box-sizing: border-box;
-        padding: 1.8em 1em;
         font-size: .8em;
+        align-content: center;
         color: var(--color-black);
         font-weight: 400;
     }
