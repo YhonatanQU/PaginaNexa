@@ -85,14 +85,13 @@
     .icon-burguer{
         text-decoration: none;
         color: var(--color-black);
-        font-weight: 300;
+        font-weight: 200;
         padding: 1.25em;
         font-size: 1em;
-        transition: background 2s, color 1s, transform 2s;
+        transition: background 2s, color 1s;
     }
 
     .icon-burguer:hover{
-        transform: scale(-1);
         background: var(--color-black-ligth);
     }
 
